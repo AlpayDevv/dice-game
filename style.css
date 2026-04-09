@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Body and background */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff6f61, #ffc371);
+  transition: background 0.5s;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+/* Dices */
+.dice-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.dice-container img {
+  width: 120px;
+  height: 120px;
+  transition: transform 0.3s;
+}
+
+.dice-container img:hover {
+  transform: rotate(20deg);
+}
+
+/* Button */
+.roll-btn {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition:
+    transform 0.2s,
+    background-color 0.2s;
+}
+
+.roll-btn:hover {
+  transform: scale(1.1);
+  background-color: #ff4b3e;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .dice-container img {
+    width: 80px;
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .roll-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
