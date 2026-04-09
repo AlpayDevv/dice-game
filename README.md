@@ -22,7 +22,7 @@ Roll two dice, see the winner, and enjoy the interactive design!
 ---
 
 ## 🌐 Live Demo
-   `https://your-username.github.io/dice-game/`
+   `https://alpaydevv.github.io/dice-game`
 
 ---
 
