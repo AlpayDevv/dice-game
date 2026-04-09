@@ -17,7 +17,7 @@ Roll two dice, see the winner, and enjoy the interactive design!
 ---
 
 ## 🖼️ Preview
-![Dice Game Screenshot](images/dice1.png) <!-- Opsiyonel: kendi screenshot ekleyebilirsin -->
+![Dice Game Screenshot](dice-game-screenshot.png)
 
 ---
 
